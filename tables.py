@@ -23,7 +23,7 @@ if data is not None:
         df2 = df1[options]
 
     df2 = df2.style.format(precision=0)
-    edited_df = st.experimental_data_editor(df2)
+    edited_df = st.data_editor(df2)
 
     if st.button("Update"):
         edited_df.to_excel("testfile.xlsx")
