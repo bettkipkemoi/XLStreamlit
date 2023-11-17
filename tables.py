@@ -29,4 +29,4 @@ if data is not None:
         edited_df.to_excel("testfile.xlsx")
         st.write("Update the new file")
 
-  #  st.write(pd.read_excel("testfile.xlsx", engine="openpyxl", index_col=None))
+    st.write(pd.read_excel("testfile.xlsx", engine="openpyxl", index_col=None))
